@@ -1,0 +1,113 @@
+.BusinessBanner {
+    width: 100%;
+    background-color: #0d084d;
+}
+
+.BusinessBanner__container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 48px;
+}
+
+.container-text span {
+    margin-right: 10px;
+}
+
+.container-text svg {
+    height: 24px;
+    width: 24px;
+}
+
+.container-text h2 {
+    margin-bottom: 24px;
+}
+
+.container-text h2 > span {
+    font-weight: 400;
+    font-style: italic
+}
+
+.container-text h2,
+.container-text p,
+.container-text li {
+    color: white;
+}
+
+.container-text li > span {
+    color: #74767e;
+}
+
+.container-text a {
+    background-color: var(--primary-green);
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.container-text a:hover {
+    background-color: #1dbf73;
+}
+
+
+@media screen and (min-width: 0px) {
+    .BusinessBanner__container {
+        flex-direction: column;
+        padding: 48px 24px;
+    }
+
+    .container-text {
+        padding: 0 8px;
+        margin-bottom: 40px;
+    }
+
+    .container-text p {
+        margin-bottom: 16px;
+    }
+
+    .container-image {
+        padding: 0 8px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .BusinessBanner__container {
+        padding: 48px 32px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .BusinessBanner__container {
+        flex-direction: row;
+        padding: 64px 32px;
+    }
+
+    .container-text {
+        padding: 0 5% 0 8px;
+        margin-bottom: 0;
+    }
+
+    .container-text p {
+        margin-bottom: 32px;
+    }
+
+    .container-image {
+        padding: 0 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .BusinessBanner__container {
+        padding: 96px 32px;
+    }
+}

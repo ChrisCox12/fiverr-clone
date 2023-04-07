@@ -1,0 +1,97 @@
+.AddGig {
+    width: 100%;
+}
+
+.AddGig__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.AddGig .input-groups {
+    display: flex;
+}
+
+.AddGig button {
+    outline: none;
+    border: none;
+    background-color: var(--primary-green);
+    padding: 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.AddGig .input-groups textarea {
+    width: 100%;
+}
+
+.AddGig .input-groups .group-1,
+.AddGig .input-groups .group-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.AddGig .input-groups .group-1 > div,
+.AddGig .input-groups .group-2 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddGig .input-groups .group-1 label,
+.AddGig .input-groups .group-2 label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #62646a;
+    padding-bottom: 6px;
+}
+
+.AddGig .input-groups .group-1 input,
+.AddGig .input-groups .group-2 input,
+.AddGig .input-groups .group-1 select,
+.AddGig .input-groups .group-2 select {
+    padding: 12px;
+}
+
+@media screen and (min-width: 0px) {
+    .AddGig__container {
+        padding: 40px;
+    }
+
+    .AddGig .input-groups {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .AddGig__container {
+        padding: 32px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .AddGig .input-groups {
+        flex-direction: row;
+        gap: 64px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .AddGig .input-groups {
+        flex-direction: row;
+        gap: 96px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .AddGig__container {
+        padding: 0;
+    }
+}

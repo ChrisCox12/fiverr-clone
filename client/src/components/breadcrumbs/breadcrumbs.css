@@ -1,0 +1,23 @@
+.breadcrumbs {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.breadcrumbs .divider {
+    margin: 0 8px;
+    color: #b5b6ba;
+}
+
+.breadcrumbs .home-crumb {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.breadcrumbs .home-crumb:hover {
+    background-color: #dadbdd;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,79 @@
+
+
+.GigCard {
+    min-width: 245px;
+    width: 100%;
+    border: 1px solid #e4e5e7;
+}
+
+.GigCard h3 {
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+.GigCard__footer {
+    border-top: 1px solid #efeff0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 12px;
+}
+
+.gig-details {
+    padding: 12px 12px 10px;
+}
+
+.seller-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 14px;
+}
+
+.seller-image {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 24px;
+    width: 24px;
+}
+
+.seller-name-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.gig-title {
+    padding-bottom: 14px;
+}
+
+.gig-title:hover {
+    color: var(--primary-green);
+}
+
+.gig-info {
+    display: flex;
+}
+
+.gig-info .ratings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffb33e;
+    font-weight: 700;
+    margin-right: 2px;
+}
+
+.gig-info .ratings svg {
+    margin-right: 5px;
+}
+
+.gig-info .reviews {
+    color: #b5b6ba;
+    font-weight: 500;
+}
+
+.GigCard__footer svg {
+    color: #b5b6ba;
+}

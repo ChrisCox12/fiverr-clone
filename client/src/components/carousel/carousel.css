@@ -1,0 +1,188 @@
+.Carousel {
+    /* padding: 0 10px; */
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Carousel[data-categories='true'] .slick-list .slick-track {
+    height: 200px;
+}
+
+.Carousel h2 {
+    padding: 0 10px 24px;
+    font-size: 32px;
+}
+
+.Carousel__card {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.slick-slide {
+    /* height: 345px !important; */
+    padding: 0 10px;
+}
+
+.slick-slide > div {
+    height: 100%;
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 4;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+    height: 3rem !important;
+    width: 3rem !important;
+    background-color: white !important;
+    border-radius: 30px;
+}
+
+.slick-prev {
+    left: -17px !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    content:'' !important;
+}
+
+.slick-prev::after,
+.slick-next::after {
+    background: url(https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/arrows.c651879.svg) no-repeat;
+    background-size: 16px 64px;
+    content:'';
+    display: inline-block;
+    height: 16px;
+    width: 16px;  
+    margin-top: 3px;
+}
+
+.slick-prev::after {
+    background-position: 0 -32px;
+}
+
+.slick-next::after {
+    background-position: 0 -48px;
+}
+
+.slick-next {
+    right: -17px !important;
+}
+
+.Carousel__card__titles {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+}
+
+.Carousel__card__titles > .title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Carousel__card__titles > .subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Carousel__card[data-project='true'] {
+    box-shadow: 0 0.14px 2.29266px rgba(0,0,0,.032), 0 0.37px 4.42626px rgba(0,0,0,.048), 0 3px 7px rgba(0,0,0,.09);
+}
+
+.Carousel__card[data-project='true'] .project-image {
+    height: 237px;
+    width: 100%;
+}
+
+.project-info {
+    display: flex;
+    align-items: center;
+    padding: 16px 0 12px 16px;
+}
+
+.project-info > .project-creator-image {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.project-info > div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+
+.project-info .project-category {
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.project-info .project-creator {
+    color: #95979d;
+}
+
+.Carousel[data-gigcards='true'] {
+    padding: 0;
+}
+
+.Carousel[data-gigcards='true'] .Carousel__card {
+    border-radius: 0;
+}
+
+.Carousel[data-gigcards='true'] .slick-slide {
+    padding: 0;
+}
+
+.Carousel[data-gigcards='true'] .slick-prev {
+    left: 0px !important;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.Carousel[data-gigcards='true'] .slick-next {
+    right: 0px !important;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.Carousel[data-gigcards='true'] .slick-next,
+.Carousel[data-gigcards='true'] .slick-prev {
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.Carousel[data-gigcards='true'] ul.slick-dots {
+    bottom: 8px;
+}
+
+.Carousel[data-gigcards='true'] ul.slick-dots > li > button::before {
+    color: white;
+    opacity: 1;
+}
+
+.Carousel[data-gigcards='true'] ul.slick-dots > li.slick-active > button::before {
+    font-size: 12px;
+}
+
+
+
+@media screen and (min-width: 0px) {
+    .Carousel {
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Carousel {
+        padding: 0;
+    }
+}

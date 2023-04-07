@@ -1,0 +1,81 @@
+.MyGigs {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.MyGigs__container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 0;
+    min-height: 800px;
+}
+
+.MyGigs__container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.MyGigs__container .header h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.MyGigs__container .header a {
+    padding: 10px;
+    background-color: var(--primary-green);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+.MyGigs__container .my-gigs-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.MyGigs__container .my-gigs-table thead td {
+    font-weight: 600;
+    color: #999999;
+}
+
+.MyGigs__container .my-gigs-table tr {
+    border: 1px solid #dadbdd;
+}
+
+.MyGigs__container .my-gigs-table td {
+    padding: 16px;
+}
+
+.MyGigs__container .my-gigs-table td > img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.MyGigs__container .my-gigs-table td > a {
+    margin-right: 32px;
+    text-transform: uppercase;
+}
+
+.MyGigs__container .my-gigs-table td > a:hover { 
+    color: var(--primary-green);
+}
+
+.MyGigs__container .my-gigs-table td > .delete-gig {
+    padding: 10px;
+    font-weight: 600;
+}
+
+.MyGigs__container .my-gigs-table td > .delete-gig:hover {
+    color: var(--primary-green);
+}
+
+.MyGigs__container .my-gigs-table td > .delete-gig > span {
+    margin-right: 8px;
+    color: red;
+}

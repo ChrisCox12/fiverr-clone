@@ -1,0 +1,60 @@
+.Review {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.Review:not(:last-child) {
+    border-bottom: 1px solid #dadbdd;
+}
+
+.Review .reviewer-image {
+    height: 100%;
+    width: 48px;
+    margin-right: 16px;
+}
+
+.Review .reviewer-image img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Review .review-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Review .reviewer-name {
+    font-weight: 700;
+}
+
+.Review .reviewer-location {
+    color: #62646a;
+}
+
+.Review .review-actions {
+    font-weight: 600;
+    font-size: 16px;
+    color: #404145;
+}
+
+.Review .review-actions button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    color: #404145;
+}
+
+.Review .review-actions > span {
+    margin-left: 8px;
+}
+
+.Review .review-stars {
+    color: #ffb33e;
+}

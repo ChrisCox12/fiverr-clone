@@ -1,0 +1,116 @@
+.Register {
+    width: 100%;
+}
+
+.Register__container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Register .input-groups {
+    display: flex;
+}
+
+.Register h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Register button {
+    outline: none;
+    border: none;
+    background-color: var(--primary-green);
+    padding: 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.Register .input-groups textarea {
+    width: 100%;
+}
+
+.Register .input-groups .group-1,
+.Register .input-groups .group-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.Register .input-groups .group-1 > div,
+.Register .input-groups .group-2 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Register .input-groups .group-1 label,
+.Register .input-groups .group-2 label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #62646a;
+    padding-bottom: 6px;
+}
+
+.Register .input-groups .group-1 input:not(input[type='file']),
+.Register .input-groups .group-2 input,
+.Register .input-groups .group-1 select,
+.Register .input-groups .group-2 select {
+    padding: 12px;
+}
+
+.Register .input-groups .group-1 input[type='file'] {
+    padding-top: 12px;
+}
+
+.Register .input-groups .radio-group input {
+    margin-right: 8px;
+}
+
+.Register .input-groups .radio-group label {
+    margin-right: 32px;
+}
+
+
+@media screen and (min-width: 0px) {
+    .Register__container {
+        padding: 40px;
+    }
+
+    .Register .input-groups {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Register__container {
+        padding: 32px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .Register .input-groups {
+        flex-direction: row;
+        gap: 64px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .Register .input-groups {
+        flex-direction: row;
+        gap: 96px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Register__container {
+        padding: 32px 0;
+    }
+}

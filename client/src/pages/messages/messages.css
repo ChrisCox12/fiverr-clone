@@ -1,0 +1,105 @@
+.Messages {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.Messages__container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 0;
+    min-height: 800px;
+}
+
+.Messages__container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.Messages__container .header h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.Messages__container .header a {
+    padding: 10px;
+    background-color: var(--primary-green);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+.Messages__container .my-messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.Messages__container .my-messages-table thead td {
+    font-weight: 600;
+    color: #999999;
+}
+
+.Messages__container .my-messages-table tr {
+    border: 1px solid #dadbdd;
+}
+
+.Messages__container .my-messages-table td {
+    padding: 16px;
+}
+
+.Messages__container .my-messages-table td > img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.Messages__container .my-messages-table td > a > svg {
+    font-size: 32px;
+}   
+
+.Messages__container .my-messages-table td > a:hover { 
+    color: var(--primary-green);
+}
+
+.Messages__container .my-messages-table td > .mark-read {
+    padding: 10px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Messages__container .my-messages-table td > .mark-read:hover {
+    color: white;
+    background-color: var(--primary-green);
+}
+
+.Messages__container .my-messages-table td > .delete-gig > span {
+    margin-right: 8px;
+    color: red;
+}
+
+.Messages__container .my-messages-table .last-message {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 300px;
+}
+
+.Messages__container .my-messages-table .buyer {
+    font-weight: 600;
+}
+
+.Messages__container .my-messages-table tr {
+    height: 68px;
+}
+
+
+.Messages .my-messages-table .unread-message {
+    background-color: blanchedalmond;
+}

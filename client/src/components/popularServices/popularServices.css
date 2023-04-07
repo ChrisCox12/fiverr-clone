@@ -1,0 +1,10 @@
+.PopularServices {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.PopularServices h2 {
+    padding: 0 10px 24px;
+    font-size: 32px;
+}

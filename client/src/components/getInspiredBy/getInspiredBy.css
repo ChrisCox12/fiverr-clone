@@ -1,0 +1,69 @@
+.GetInspiredBy {
+    background-color: #f5f5f5;
+}
+
+.GetInspiredBy__container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.GetInspiredBy .container-header {
+    display: flex;
+    padding-bottom: 24px;
+}
+
+.GetInspiredBy .container-header a {
+    color: #446ee7;
+    white-space: nowrap;
+    font-size: 17px;
+}
+
+
+@media screen and (min-width: 0px) {
+    .GetInspiredBy__container {
+        padding: 48px 24px;
+    }
+
+    .GetInspiredBy .container-header {
+        flex-direction: column;
+        padding: 0 32px 24px;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .GetInspiredBy__container {
+        padding: 48px 32px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .GetInspiredBy__container {
+        padding: 64px 32px;
+    }
+
+    .GetInspiredBy .container-header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .GetInspiredBy__container {
+        padding: 96px 32px;
+    }
+
+    .GetInspiredBy h2 {
+        padding: 0 10px 24px;
+    }
+
+    .GetInspiredBy .container-header {
+        padding-left: 0;
+    }
+
+    .GetInspiredBy .container-header a {
+        padding-bottom: 24px;
+    }
+}

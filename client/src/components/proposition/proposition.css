@@ -1,0 +1,112 @@
+.Proposition {
+    width: 100%;
+    margin: 80px 0;
+    background-color: #f1fdf7;
+}
+
+.Proposition__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.Proposition__container__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.proposition-text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.proposition-text h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.proposition-text h6 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.proposition-text h6 > span {
+    margin-right: 10px;
+}
+
+.proposition-text p {
+    font-size: 18px;
+    color: #62646a;
+    line-height: 26px;
+}
+
+.proposition-video video {
+    width: 100%;
+}
+
+@media screen and (min-width: 0px) {
+    .Proposition {
+        margin-bottom: 80px;
+    }
+
+    .Proposition__container {
+        padding: 48px 24px;
+    }
+
+    .Proposition__container__content {
+        flex-direction: column;
+    }
+
+    .proposition-text {
+        padding: 0 8px 48px;
+    }
+
+    .proposition-video {
+        padding: 0 6px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Proposition__container {
+        padding: 48px 32px;
+    }
+
+    .proposition-video {
+        padding: 0 8px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .Proposition {
+        margin-bottom: 96px;
+    }
+    
+    .Proposition__container {
+        padding: 64px 32px;
+    }
+
+    .Proposition__container__content {
+        flex-direction: row;
+    }
+
+    .proposition-text {
+        padding: 0 7% 0 8px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Proposition__container {
+        padding: 96px 32px;
+    }
+
+    .proposition-text {
+        padding: 0 11% 0 0;
+    }
+
+    .proposition-video {
+        padding: 0 16px;
+    }
+}

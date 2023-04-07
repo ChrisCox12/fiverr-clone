@@ -1,0 +1,97 @@
+.EditGig {
+    width: 100%;
+}
+
+.EditGig__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.EditGig .input-groups {
+    display: flex;
+}
+
+.EditGig button {
+    outline: none;
+    border: none;
+    background-color: var(--primary-green);
+    padding: 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.EditGig .input-groups textarea {
+    width: 100%;
+}
+
+.EditGig .input-groups .group-1,
+.EditGig .input-groups .group-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.EditGig .input-groups .group-1 > div,
+.EditGig .input-groups .group-2 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.EditGig .input-groups .group-1 label,
+.EditGig .input-groups .group-2 label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #62646a;
+    padding-bottom: 6px;
+}
+
+.EditGig .input-groups .group-1 input,
+.EditGig .input-groups .group-2 input,
+.EditGig .input-groups .group-1 select,
+.EditGig .input-groups .group-2 select {
+    padding: 12px;
+}
+
+@media screen and (min-width: 0px) {
+    .EditGig__container {
+        padding: 40px;
+    }
+
+    .EditGig .input-groups {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .EditGig__container {
+        padding: 32px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .EditGig .input-groups {
+        flex-direction: row;
+        gap: 64px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .EditGig .input-groups {
+        flex-direction: row;
+        gap: 96px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .EditGig__container {
+        padding: 0;
+    }
+}
